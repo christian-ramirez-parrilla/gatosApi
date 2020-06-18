@@ -1,0 +1,30 @@
+<div class="menu">
+    
+    <ul>
+        
+        <li [routerLink]="['']"> VOTA </li>
+
+        <li (click)="mostrarMenu()" class="elemento"> RAZAS 
+
+            <ul *ngIf="visible" class="sublista">
+
+                <li [routerLink]="['europea']"> EUROPEAN </li>
+
+                <li [routerLink]="['egipto']"> EGYPTIAN MAU </li>
+
+                <li [routerLink]="['hymalaya']"> HIMALAYAN </li>
+
+                <li [routerLink]="['dragon']"> DRAGON LI </li>
+
+
+            </ul>
+
+
+        </li>
+
+
+        <li [routerLink]="['favoritos']"> FAVORITOS </li>
+
+    </ul>
+
+</div>

@@ -1,0 +1,60 @@
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.foto{
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    background-color: #252525;
+}
+.votacion{
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.no{
+    background-color: red;
+    width: 180px;
+    height: 80px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+.fa-thumbs-down{
+    font-size: 30px;
+    margin-left: 5px;
+}
+.no h3{
+    margin-right: 5px;
+}
+.si{
+    background-color: green;
+    width: 180px;
+    height: 80px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+.fa-thumbs-up{
+    font-size: 30px;
+    margin-left: 5px;
+}
+.si h3{
+    margin-right: 5px;
+}

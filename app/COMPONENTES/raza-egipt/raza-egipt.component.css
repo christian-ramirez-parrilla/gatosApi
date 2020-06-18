@@ -1,0 +1,32 @@
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+span{
+    font-size: 18px;
+}
+.foto{
+    width: 100%;
+    height: 70vh;
+    margin-bottom: 40px;
+}
+.contenido{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.contenido h2{
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.contenido p{
+    color: #FFFFFF;
+    width: 60%;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
